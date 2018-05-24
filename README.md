@@ -22,7 +22,7 @@ Website: http://deckofcardsapi.com/
 
 Scenario 1: Shuffling a new deck works
 - Open a new deck, and shuffle it
-- Verify that the exact same cards are in the deck
+- Verify that the same number of cards are in the deck
 - And that the cards are in a different order
 
 Scenario 2: Remaining cards value correctly updated after drawing

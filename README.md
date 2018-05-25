@@ -12,7 +12,7 @@ Website: http://deckofcardsapi.com/
 
 # Acceptance Criteria
 1. Create a new branch for your test using the Github website. Ensure you pull that branch to your local machine before you start working on the test.
-2. Write a simple automated test framework to test the scenario below
+2. Write a simple automated test framework in the language / IDE of your choice to test the scenario below
 3. Clear reporting of the test results
 4. This README.md expanded to include your design decisions, how to install and then how to run your tests
 5. Include information about your choice of tools that have been used

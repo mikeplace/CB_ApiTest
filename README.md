@@ -21,7 +21,7 @@ Website: http://deckofcardsapi.com/
 # Scenario:
 
 Scenario: Remaining cards correctly updated after drawing
-- Assuming the new deck starts with 52 cards:
+- *Assuming the new deck starts with 52 cards:*
 - Draw cards from the deck 5 times
 - Draw between 1 and 5 cards from the deck each time.
 - Verify that 52-[total cards drawn] remain in the deck at the end of the test

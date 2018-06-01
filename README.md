@@ -1,6 +1,8 @@
 # CB Automated API Test
 
-This is a simple automation technical test for prospective QA candidates. It is not intended to take more than 2 hours to complete.
+This is a simple automation technical test for prospective QA candidates. It is not intended to take more than a few hours to complete.
+
+Your submission will be reviewed not only in terms of your final result, but also in terms of your approach.
 
 # Overview
 

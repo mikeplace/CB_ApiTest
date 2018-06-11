@@ -18,7 +18,7 @@ Website: http://deckofcardsapi.com/
 3. Clear reporting of the test results
 4. This README.md expanded to include your design decisions, how to install and then how to run your tests
 5. Include information about your choice of tools that have been used
-6. Once completed create a Pull Requrest and assign the users Greeff and mikeplace
+6. Once completed create a Pull Request and assign the users Greeff and mikeplace
 
 # Scenario:
 
@@ -27,3 +27,15 @@ Scenario: Remaining cards correctly updated after drawing
 - Draw cards from the deck 5 times
 - Draw between 1 and 5 cards from the deck each time.
 - Verify that 52-[total cards drawn] remain in the deck at the end of the test
+
+# Implementation:
+
+The branch 'mantunes' contains a solution in C# created in Visual Studio 2017. It uses Nunit and Specflow to complete the scenario requested.
+C# was selected as it is the language I have more exposure at this moment.
+Specflow was used as its big advantage is to create and maintain very easily readable tests.
+The solution contains a feature file, its steps and a POCO model.
+
+# Prerequisites:
+
+Having the extensions for Specflow and Nunit 3 Test Adapter are necessary to run the tests created.
+After installation of the above mentioned extensions, open Test Explorer in Visual Studio 2017 (Test > Windows > Test Explorer). From this window any / all tests can be run and verified if they pass or fail.

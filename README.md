@@ -30,12 +30,12 @@ Scenario: Remaining cards correctly updated after drawing
 
 # Implementation:
 
-The branch 'mantunes' contains a solution in C# created in Visual Studio 2017 that uses Nunit and Specflow to complete the scenario requested.
-C# was selected as it is the language I have more exposure at the moment.
+The branch 'mantunes' contains a solution in C# created in Visual Studio 2017. It uses Nunit and Specflow to complete the scenario requested.
+C# was selected as it is the language I have more exposure at this moment.
 Specflow was used as its big advantage is to create and maintain very easily readable tests.
 The solution contains a feature file, its steps and a POCO model.
 
-# Prerequisites
+# Prerequisites:
 
 Having the extensions for Specflow and Nunit 3 Test Adapter are necessary to run the tests created.
-After installation open Test Explorer in Visual Studio 2017 (Test > Windows > Test Explorer). From this window any / all tests can be run and if they passed or failed.
+After installation of the above mentioned extensions, open Test Explorer in Visual Studio 2017 (Test > Windows > Test Explorer). From this window any / all tests can be run and verified if they pass or fail.
